@@ -442,7 +442,7 @@ select {
 }
 
 .live-wrap .l-table .tab-head-con {
-  padding-right: 18px;
+  padding-right: 1px;
 }
 
 .live-wrap .l-table .tab-head-con thead > tr > th {
