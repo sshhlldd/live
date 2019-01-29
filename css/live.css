@@ -207,6 +207,12 @@ select {
 .live-wrap .l-iframe {
   border: 1px solid #ccc;
   background: #555;
+  overflow: hidden;
+}
+
+.live-wrap .l-iframe .iframecon {
+  width: 70%;
+  margin: 0 auto;
 }
 
 .live-wrap iframe {
@@ -355,7 +361,6 @@ select {
   font-size: 0.0963rem;
   font-weight: 600;
   padding-left: 0.07407rem;
-  font-weight: lighter;
 }
 
 .live-wrap .widget-box .widget-toolbox {

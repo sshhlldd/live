@@ -214,6 +214,11 @@ $bgColor:#fff;
     .l-iframe {
         border: 1px solid $borderColor;
         background: #555;
+        overflow: hidden;
+        .iframecon {
+            width: 70%;
+            margin: 0 auto;
+        }
     }
     iframe {
         height: px2rem(230);
@@ -333,7 +338,6 @@ $bgColor:#fff;
                 font-size: px2rem(13);
                 font-weight: 600;
                 padding-left: px2rem(10);
-                font-weight: lighter;
             }
         }
         .widget-toolbox {

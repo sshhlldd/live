@@ -87,9 +87,7 @@ img {
 }
 
 body {
-    line-height: 1;
     background: #060708;
-    overflow-x: hidden;
 }
 
 .clearfix:after {
@@ -197,10 +195,10 @@ select {
 }
 
 //main
-$baseFontSize: 75; //基于视觉稿横屏尺寸/100得出的基准font-size
+$baseFontSize: 48; //基于视觉稿横屏尺寸/100得出的基准font-size
 $borderColor:#ccc;
 $bgColor:#fff;
-@function px2rem($px: 75) {
+@function px2rem($px: 48) {
     @return $px / $baseFontSize * 1rem;
 }
 
@@ -210,10 +208,18 @@ $bgColor:#fff;
 }
 
 .live-wrap {
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
     padding: px2rem(5);
     .l-iframe {
         border: 1px solid $borderColor;
         background: #555;
+        overflow: hidden;
+        .iframecon {
+            width: 100%;
+        }
     }
     iframe {
         height: px2rem(320);
@@ -270,10 +276,10 @@ $bgColor:#fff;
         box-shadow: none;
         border: 1px solid $borderColor;
         background: #fff;
-        font-size: px2rem(14);
+        font-size: px2rem(13);
         .btn-xs {
             width: 40%;
-            font-size: px2rem(13);
+            font-size: px2rem(12);
         }
         .l-group {
             display: flex;
@@ -283,12 +289,12 @@ $bgColor:#fff;
             label {
                 text-align: right;
                 font-weight: normal;
-                width: 30%;
+                width: 40%;
                 margin-bottom: px2rem(5);
             }
         }
         .no-wrap {
-            width: 65%;
+            width: 55%;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
@@ -316,7 +322,7 @@ $bgColor:#fff;
                 padding: px2rem(4) px2rem(8);
             }
             .text {
-                font-size: px2rem(13);
+                font-size: px2rem(12);
             }
             .name {
                 color: #428bca;
@@ -330,17 +336,16 @@ $bgColor:#fff;
             background-repeat: repeat-x;
             color: #4383b4;
             h4 {
-                font-size: px2rem(14);
+                font-size: px2rem(13);
                 font-weight: 600;
                 padding-left: px2rem(10);
-                font-weight: lighter;
             }
         }
         .widget-toolbox {
             padding: px2rem(7) px2rem(5);
             border-top: 1px solid #ddd;
             label {
-                margin-bottom: px2rem(5);
+                margin-bottom: 0;
             }
         }
     }
@@ -387,18 +392,18 @@ $bgColor:#fff;
         border-left-color: #ddd
     }
     .l-result {
-        font-size: px2rem(13);
+        font-size: px2rem(12);
         .tit {
             background: #307ecc;
             color: #fff;
-            font-size: px2rem(14);
+            font-size: px2rem(13);
             font-weight: bold;
             padding: px2rem(7) px2rem(10);
             span {
                 padding-top: px2rem(2)
             }
             .btn-xs {
-                font-size: px2rem(13);
+                font-size: px2rem(12);
             }
         }
     }
