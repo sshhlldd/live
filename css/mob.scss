@@ -78,7 +78,6 @@ video {
     vertical-align: baseline;
     background: transparent;
     position: relative;
-    z-index: 100;
 }
 
 iframe,
@@ -467,6 +466,16 @@ $bgColor:#fff;
             display: inline-block;
             margin: 0 3px;
         }
+    }
+    .help-button {
+        display: inline-block;
+        text-align: center;
+        padding: 0;
+        color: #65bcda;
+        font-size: px2rem(14);
+        font-weight: normal;
+        margin-left: px2rem(5);
+        cursor: pointer;
     }
     input[type="checkbox"].ace {
         opacity: 0;

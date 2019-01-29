@@ -78,7 +78,6 @@ video {
     vertical-align: baseline;
     background: transparent;
     position: relative;
-    z-index: 100;
 }
 
 iframe,
@@ -210,6 +209,10 @@ $bgColor:#fff;
 }
 
 .live-wrap {
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
     padding: px2rem(5);
     .l-iframe {
         border: 1px solid $borderColor;
@@ -261,6 +264,11 @@ $bgColor:#fff;
     .btn-xs {
         font-size: px2rem(12);
     }
+    .ace-icon {
+        margin-right: px2rem(5);
+        font-weight: normal;
+        display: inline-block;
+    }
     .widget-color-orange {
         border-color: #e8b10d;
         .widget-header {
@@ -302,11 +310,6 @@ $bgColor:#fff;
             line-height: px2rem(28);
             padding: 0;
             margin: 0;
-            .ace-icon {
-                margin-right: px2rem(5);
-                font-weight: normal;
-                display: inline-block;
-            }
         }
         .widget-main {
             padding: px2rem(4);
@@ -408,6 +411,7 @@ $bgColor:#fff;
     }
     .l-table {
         background-color: #eff3f8;
+        margin-left: px2rem(10);
         .tab-head-con {
             padding-right: 18px;
             thead>tr>th {
@@ -466,6 +470,16 @@ $bgColor:#fff;
             display: inline-block;
             margin: 0 3px;
         }
+    }
+    .help-button {
+        display: inline-block;
+        text-align: center;
+        padding: 0;
+        color: #65bcda;
+        font-size: px2rem(14);
+        font-weight: normal;
+        margin-left: px2rem(5);
+        cursor: pointer;
     }
     input[type="checkbox"].ace {
         opacity: 0;

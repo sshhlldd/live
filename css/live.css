@@ -77,7 +77,6 @@ video {
   vertical-align: baseline;
   background: transparent;
   position: relative;
-  z-index: 100;
 }
 
 iframe,
@@ -204,6 +203,11 @@ select {
   padding: 0.03704rem;
 }
 
+.live-wrap .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .live-wrap .l-iframe {
   border: 1px solid #ccc;
   background: #555;
@@ -269,6 +273,12 @@ select {
   font-size: 0.08889rem;
 }
 
+.live-wrap .ace-icon {
+  margin-right: 0.03704rem;
+  font-weight: normal;
+  display: inline-block;
+}
+
 .live-wrap .widget-color-orange {
   border-color: #e8b10d;
 }
@@ -318,12 +328,6 @@ select {
   line-height: 0.20741rem;
   padding: 0;
   margin: 0;
-}
-
-.live-wrap .widget-box .widget-title .ace-icon {
-  margin-right: 0.03704rem;
-  font-weight: normal;
-  display: inline-block;
 }
 
 .live-wrap .widget-box .widget-main {
@@ -444,6 +448,7 @@ select {
 
 .live-wrap .l-table {
   background-color: #eff3f8;
+  margin-left: 0.07407rem;
 }
 
 .live-wrap .l-table .tab-head-con {
@@ -507,6 +512,17 @@ select {
 .live-wrap .action-buttons span {
   display: inline-block;
   margin: 0 3px;
+}
+
+.live-wrap .help-button {
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+  color: #65bcda;
+  font-size: 0.1037rem;
+  font-weight: normal;
+  margin-left: 0.03704rem;
+  cursor: pointer;
 }
 
 .live-wrap input[type="checkbox"].ace {
