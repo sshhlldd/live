@@ -217,7 +217,7 @@ select {
 }
 
 .live-wrap iframe {
-  height: 6.66667rem;
+  height: 10rem;
 }
 
 .live-wrap table {
@@ -255,7 +255,7 @@ select {
 }
 
 .live-wrap .no-padding-right {
-  padding-right: 0 !important;
+  padding: 0 !important;
 }
 
 .live-wrap .no-padding-left {
@@ -311,8 +311,8 @@ select {
 .live-wrap .widget-box .no-wrap {
   width: 55%;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  /* text-overflow: ellipsis;
+            white-space: nowrap; */
 }
 
 .live-wrap .widget-box .widget-title {
@@ -329,7 +329,7 @@ select {
 
 .live-wrap .widget-box .widget-main {
   padding: 0.10417rem;
-  height: 2.5rem;
+  height: 4.16667rem;
   overflow: auto;
 }
 

@@ -220,7 +220,7 @@ select {
 }
 
 .live-wrap iframe {
-  height: 1.7037rem;
+  height: 2.96296rem;
 }
 
 .live-wrap table {
@@ -313,15 +313,15 @@ select {
 .live-wrap .widget-box .curr-group label {
   text-align: right;
   font-weight: normal;
-  width: 30%;
+  width: 35%;
   margin-bottom: 0.01481rem;
 }
 
 .live-wrap .widget-box .no-wrap {
   width: 65%;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  /* text-overflow: ellipsis;
+            white-space: nowrap; */
 }
 
 .live-wrap .widget-box .widget-title {
@@ -332,7 +332,7 @@ select {
 
 .live-wrap .widget-box .widget-main {
   padding: 0.02963rem;
-  height: 0.66667rem;
+  height: 0.94074rem;
   overflow: auto;
 }
 

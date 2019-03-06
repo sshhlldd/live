@@ -221,7 +221,7 @@ $bgColor:#fff;
         }
     }
     iframe {
-        height: px2rem(320);
+        height: px2rem(480);
     }
     table {
         font-size: px2rem(12);
@@ -250,7 +250,7 @@ $bgColor:#fff;
         padding: 0 !important;
     }
     .no-padding-right {
-        padding-right: 0 !important;
+        padding: 0 !important;
     }
     .no-padding-left {
         padding-left: 0 !important;
@@ -295,8 +295,8 @@ $bgColor:#fff;
         .no-wrap {
             width: 55%;
             overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
+            /* text-overflow: ellipsis;
+            white-space: nowrap; */
         }
         .widget-title {
             line-height: px2rem(32);
@@ -310,7 +310,7 @@ $bgColor:#fff;
         }
         .widget-main {
             padding: px2rem(5);
-            height: px2rem(120);
+            height: px2rem(200);
             overflow: auto;
             .form-group {
                 margin-bottom: px2rem(4);

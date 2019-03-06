@@ -224,7 +224,7 @@ $bgColor:#fff;
         }
     }
     iframe {
-        height: px2rem(230);
+        height: px2rem(400);
     }
     table {
         font-size: px2rem(12);
@@ -296,15 +296,15 @@ $bgColor:#fff;
             label {
                 text-align: right;
                 font-weight: normal;
-                width: 30%;
+                width: 35%;
                 margin-bottom: px2rem(2);
             }
         }
         .no-wrap {
             width: 65%;
             overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
+            /* text-overflow: ellipsis;
+            white-space: nowrap; */
         }
         .widget-title {
             line-height: px2rem(28);
@@ -313,7 +313,7 @@ $bgColor:#fff;
         }
         .widget-main {
             padding: px2rem(4);
-            height: px2rem(90);
+            height: px2rem(127);
             overflow: auto;
             .form-group {
                 margin-bottom: px2rem(2);
